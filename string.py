@@ -1,5 +1,5 @@
-text = "Hello world!"
-course = "SOFTWARE DEVELOPMENT"
+#text = "Hello world!"
+#course = "SOFTWARE DEVELOPMENT"
 
 #print(text)
 
@@ -14,8 +14,13 @@ course = "SOFTWARE DEVELOPMENT"
 #print(course.lower()) # type: ignore
 
 #String Concatenation
-greeting="Hello there"
-firstname="Joshua"
+#greeting="Hello there"
+#firstname="Joshua"
 
 #print(greeting  + firstname) 
-print(greeting + " " + firstname)
+#print(greeting + " " + firstname)
+#Multi-line string concatenation
+y="""Hello there
+My name is Joshua and  I am learning programming in python
+Later I will be working on django and flask"""
+print(y)
