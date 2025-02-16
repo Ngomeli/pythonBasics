@@ -1,7 +1,8 @@
 
 courses=["MIT","Cybersecurity", "Datascience", "Machine Learning", "Web Development","AI Engineer"]
-print (courses[1:6])
-
+#print (courses[1:6])
+courses.insert(0,"Cloud Computing")
+print (courses)
 #Accessing an element in an array
 #print(courses[1])
 
