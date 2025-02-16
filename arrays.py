@@ -1,6 +1,6 @@
 
-courses=["MIT","Cybersecurity", "Datascience"]
-#print (courses)
+courses=["MIT","Cybersecurity", "Datascience", "Machine Learning", "Web Development","AI Engineer"]
+print (courses[1:6])
 
 #Accessing an element in an array
 #print(courses[1])
