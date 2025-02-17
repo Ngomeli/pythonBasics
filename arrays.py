@@ -2,7 +2,9 @@
 courses=["MIT","Cybersecurity", "Datascience", "Machine Learning", "Web Development","AI Engineer"]
 #print (courses[1:6])
 #courses.insert(0,"Cloud Computing")
-courses.append("Cloud Computing")
+#courses.append("Cloud Computing")
+course=["Python programming", "Django", "Flask","SQL"]
+courses.extend(course)
 print (courses)
 #Accessing an element in an array
 #print(courses[1])
