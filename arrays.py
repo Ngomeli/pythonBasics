@@ -1,12 +1,14 @@
 
-courses=["MIT","Cybersecurity", "Datascience", "Machine Learning", "Web Development","AI Engineer"]
+courses=["MIT","Cybersecurity", "Datascience", "Machine Learning", "Web Development","AI Engineer""Python programming", "Django", "Flask","SQL"]
 #print (courses[1:6])
 #courses.insert(0,"Cloud Computing")
 #courses.append("Cloud Computing")
 #course=["Python programming", "Django", "Flask","SQL"]
 #courses.extend(course)
 #courses.remove("MIT")
-courses.pop(0)
+#courses.pop(0)
+#courses.sort()
+courses.sort(reverse=True)
 print (courses)
 #Accessing an element in an array
 #print(courses[1])
