@@ -1,5 +1,5 @@
 #Dataframe from dictionary
-dict_data ={
+"""dict_data ={
     'Name': ['Jane', 'John', 'Mike'],
     'Age': [30, 25, 35],
     'City': ['New York', 'Los Angeles', 'Chicago']
@@ -11,4 +11,20 @@ df = pd.DataFrame(dict_data)
 
 #print dataframe
 
-print(df)
+print(df)"""
+#Dataframe from list of dictionaries
+names = ["United States", "Australia", "Japan", "Canada", "Italy", "Brazil"]
+dr=[True, False, False, False, False, False]
+cpc= [809,731,588,180,200,700]
+
+import pandas as pd
+#create dictonary my_dict with three keys:Value pairs:my_dict
+
+my_dict = {"country":names, "drives_right":dr, "cars_per_cap":cpc}
+#Build a DataFrame cars from my_dict: cars
+
+cars = pd.DataFrame(my_dict)
+
+#print dataframe
+
+print(cars)
