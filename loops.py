@@ -1,5 +1,5 @@
 #while loop
-number =10
+#number =10
 #increament
 '''
 while number <=20:
@@ -27,6 +27,11 @@ for b in range(1,10,2):
     print(b)
 '''
 #list
-languages=["python", "php", "SQL"]
+"""languages=["python", "php", "SQL"]
 for lang in languages:
-    print(lang)
+    print(lang)"""
+
+fam=[1.73, 1.68, 1.71, 1.89]
+for index, height in enumerate(fam):
+    #print(f"Index: {index}, Height: {height}")
+    print("index" + str(index) + ":" +str(height))
