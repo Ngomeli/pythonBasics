@@ -31,5 +31,5 @@ row_labels =["US", "AUS", "JPN", "CAN", "ITA", "BRA"]
 
 cars.index = row_labels
 #print dataframe
-#print(cars.loc["AUS"])
-print(cars.iloc[2])
+print(cars.loc["AUS"])
+#print(cars.iloc[2])
