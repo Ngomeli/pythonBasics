@@ -25,6 +25,11 @@ my_dict = {"country":names, "drives_right":dr, "cars_per_cap":cpc}
 
 cars = pd.DataFrame(my_dict)
 
+#Defination of rows_labels
+row_labels =["US", "AUS", "JPN", "CAN", "ITA", "BRA"]
+#Specify row labels of cars
+
+cars.index = row_labels
 #print dataframe
 
 print(cars)
