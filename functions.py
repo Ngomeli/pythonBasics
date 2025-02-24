@@ -42,7 +42,12 @@ my_function("John")"""
 
 my_function("John", "Mary", "Mike")"""
 
-def my_function(fname, lname):
+"""def my_function(fname, lname):
     print(f"Hey {fname} {lname}")
 
-my_function("John", "Doe")
+my_function("John", "Doe")"""
+
+def my_function(fname, **kwargs):
+    print(f"Hey {fname} {kwargs ["lname"]}")
+
+my_function("John", lname="Doe")
