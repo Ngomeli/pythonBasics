@@ -35,9 +35,14 @@ print("The sum is", add(a,b))"""
 
 my_function("John")"""
 
-def my_function(fname, *args):
+"""def my_function(fname, *args):
     print(f"Hey {fname}")
     for arg in args:
         print(f"Hey {arg}")#print(arg)
 
-my_function("John", "Mary", "Mike")
+my_function("John", "Mary", "Mike")"""
+
+def my_function(fname, lname):
+    print(f"Hey {fname} {lname}")
+
+my_function("John", "Doe")
