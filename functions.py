@@ -30,7 +30,14 @@ a=int(input("Enter the first number: "))
 b=int(input("Enter the second number: "))
 print("The sum is", add(a,b))"""
 
-def my_function(fname):
+"""def my_function(fname):
     print(f"Hey {fname}")
 
-my_function("John")
+my_function("John")"""
+
+def my_function(fname, *args):
+    print(f"Hey {fname}")
+    for arg in args:
+        print(f"Hey {arg}")#print(arg)
+
+my_function("John", "Mary", "Mike")
