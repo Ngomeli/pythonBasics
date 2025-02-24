@@ -11,3 +11,9 @@ print(set(z))
 animals = set(["Cow", "Fish", "Pig", "Horse"])
 animals.add ("Cat")
 print(animals)
+
+set1 = {"Cow": "Cow", "Pig": "Pig"}
+
+set2 = {"Horse": "Horse", "Dog": "Dog"}
+
+print(set1, set2)

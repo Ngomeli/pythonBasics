@@ -7,6 +7,7 @@
 
 #print(europe)
 
-wold = {"europe":30.55, "Africa":39.21, "Asia": 49.89}
-for key, value in wold.items():
+world = {"europe":30.55, "Africa":39.21, "Asia": 49.89}
+world.update({"europe": 20.55, "Africa": 49.21})
+for key, value in world.items():
     print(f"{key}: {value} million people")
