@@ -23,9 +23,14 @@
 #def add(a,b):    
  #   print("The sum is", a+b)
 #add(3,4)
-def add(a,b):
+"""def add(a,b):
     return a+b
 a=int(input("Enter the first number: "))
 
 b=int(input("Enter the second number: "))
-print("The sum is", add(a,b))
+print("The sum is", add(a,b))"""
+
+def my_function(fname):
+    print(f"Hey {fname}")
+
+my_function("John")
